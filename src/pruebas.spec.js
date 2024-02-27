@@ -11,6 +11,6 @@ describe("Bisiesto", () =>{
         expect(get_bisiesto(2016)).toEqual("SI, es bisiesto");
     });
     it("Todos los años que no son divisibles por 4 NO son años bisiestos (por ejemplo, 2017, 2018, 2019)", () => {
-        expect(get_bisiesto(2017)).toEqual("No es bisiesto");
+        expect(get_bisiesto(2018)).toEqual("No es bisiesto");
     });
 });
