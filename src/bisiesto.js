@@ -5,6 +5,8 @@ function get_bisiesto(n) {
      return "No es bisiesto"
  }else if(n % 4 === 0 && n % 100 != 0){
      return "SI, es bisiesto"
+ }else if(n % 4 != 0){
+     return "No es bisiesto"
  }
 }
   
