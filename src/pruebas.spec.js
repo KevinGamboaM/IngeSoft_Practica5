@@ -8,6 +8,6 @@ describe("Bisiesto", () =>{
         expect(get_bisiesto(2100)).toEqual("No es bisiesto");
     });
     it("Todos los años divisibles por 4 pero no por 100 SON años bisiestos (por ejemplo, 2008, 2012, 2016)", () => {
-        expect(get_bisiesto(2012)).toEqual("SI, es bisiesto");
+        expect(get_bisiesto(2016)).toEqual("SI, es bisiesto");
     });
 });
